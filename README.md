@@ -1,8 +1,8 @@
-# Redux Simple
+# Redux Export
 
-Modular [Redux](http://redux.js.org) bootstrap.
+Export module [Redux](http://redux.js.org) bootstrap.
 
-## What is Redux Simple?
+## What is Redux Export?
 
 Minimal Gear using [Redux](http://redux.js.org) to develop modularized applications.
 
@@ -11,7 +11,7 @@ Minimal Gear using [Redux](http://redux.js.org) to develop modularized applicati
 **Install**
 
 ```sh
-yarn add redux-simple
+yarn add redux-export
 ```
 
 **Basic Usage**
@@ -65,11 +65,11 @@ export default MyModuleBar
 ```js
 import React from 'react'
 import {render} from 'react-dom'
-import reduxSimple from 'redux-simple'
+import reduxExport from 'redux-export'
 import MyModuleFoo from './MyModuleFoo'
 import MyModuleBar from './MyModuleBar'
 
-const store = reduxSimple(MyModuleFoo, MyModuleBar)
+const store = reduxExport(MyModuleFoo, MyModuleBar)
 const divRender = document.getElementById('devRender')
 
 store.subscribe(() => {

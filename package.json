@@ -1,5 +1,5 @@
 {
-  "name": "redux-simple",
+  "name": "redux-export",
   "version": "1.0.0",
   "description": "Minimal Gear using Redux to develop modularized applications.",
   "main": "reduxSimple.js",

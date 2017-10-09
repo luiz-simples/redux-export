@@ -5,9 +5,9 @@ module.exports = {
   devtool: 'cheap-module-source-map',
   target: 'async-node',
   externals: [nodeExternals()], // in order to ignore all modules in node_modules folder
-  entry: {main: './reduxSimpleEs6.js'},
+  entry: {main: './reduxExportEs6.js'},
   output: {
-    filename: 'reduxSimple.js',
+    filename: 'reduxExport.js',
     libraryTarget: 'commonjs2'
   },
 
