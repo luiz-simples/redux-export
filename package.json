@@ -1,8 +1,8 @@
 {
   "name": "redux-export",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Minimal Gear using Redux to develop modularized applications.",
-  "main": "reduxSimple.js",
+  "main": "reduxExport.js",
   "scripts": {
     "build": "NODE_ENV=production BABEL_ENV=production webpack --progress"
   },
