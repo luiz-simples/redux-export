@@ -16,3 +16,4 @@ src
 test
 docker
 webpack.config.js
+.babelrc
