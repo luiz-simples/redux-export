@@ -69,7 +69,7 @@ import reduxExport from 'redux-export'
 import MyModuleFoo from './MyModuleFoo'
 import MyModuleBar from './MyModuleBar'
 
-const store = reduxExport(MyModuleFoo, MyModuleBar)
+const store = reduxExport([MyModuleFoo, MyModuleBar])
 const divRender = document.getElementById('devRender')
 
 store.subscribe(() => {
